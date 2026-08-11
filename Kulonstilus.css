@@ -1,10 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 11pt;
     line-height: 1.6;
     color:#2c3e50 ;
     background-color:#f4f7f6 ;
+    
     max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 6px;
 }
 
 h1{
@@ -13,12 +29,29 @@ h1{
     font-size: 24pt;
     letter-spacing: 2px;
 
+    background-color: rgb(193, 193, 216);
+    padding: 10px;
+
 }
 h2{
     color: #2e6f40;
     font-size: 16px;
-    margin-top: 30px;
-    margin-bottom: 15px;
+
+    border-left-width: 5px;
+    border-left-style: solid;
+
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+
+    padding-left: 12px;
+    padding-bottom: 6px;
+
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+    max-width: 200px;
+
+   
 
 }
 
@@ -26,29 +59,87 @@ h3{
     color: #34495e;
     font-size: 13pt;
     font-style: italic;
+
+    border-bottom-width: 2px;
+    border-bottom-style: dotted;
+
+    padding-bottom: 4px;
+
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+    max-width: 200px;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+ul, ol{
+
+    margin-top: 0;
+    margin-bottom: 25px;
+    padding-left: 25px; 
 }
 
 img{
+    display: block;
+
     width: 70%;
+    max-width: 100%;
+    height: auto;
+
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 15px;
+
+    padding-top: 8px; 
+    padding-bottom: 8px;
+    padding-left: 8px; 
+    padding-right: 8px;
+
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+    margin-left: auto; 
+    margin-right: auto;
+
 }
 
 a:link {
     color: #a0522d;
     text-decoration: none;
     font-weight: bold;
-    border-bottom: 1px dashed #a0522d;
+    
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+
+    padding-top: 2px; 
+    padding-bottom: 2px; 
+    padding-left: 4px; 
+    padding-right: 4px;
 }
 
 a:visited {
     color: #a0522d;
     text-decoration: none;
     font-weight: bold;
-    border-bottom: 1px dashed #a0522d;
+
+    border-bottom: 1px;
+    border-bottom-style: dashed;
+
+    padding-top: 2px; 
+    padding-bottom: 2px; 
+    padding-left: 4px; 
+    padding-right: 4px;
 }
 
 a:hover {
     color: #d2691e;
-    border-bottom: 1px solid #d2691e;
+
+    border-bottom-style: solid; 
+    border-radius: 4px;
+
     background-color: #fef5e7;
 }
 
