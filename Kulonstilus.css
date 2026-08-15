@@ -165,15 +165,8 @@ a:active {
 
     display: inline-block;
 
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 16px;
-    padding-right: 16px;
-
-    margin-top: 0;
-    margin-bottom: 15px;
-    margin-left: 3px;
-    margin-right: 3px;
+    padding: 8px 16px;
+    margin: 0 3px;
 
     border-width: 1px;
     border-style: solid;
@@ -204,25 +197,25 @@ a:active {
 
     background-color: lightblue;
 }
-#jellemzo {
+.menu {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 10px;
 
-    background-color: purple;
-    color: white;
-    padding: 8px;
+    border: 1px solid #7f8c8d;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fdfefe;
 }
 
-#fajta {
+.tartalom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    align-items: center;
 
-    background-color: green;
-    color: white;
-    padding: 8px;
-}
-
-.menu,
-.tartalom,
-.jellemzok,
-.fajta,
-.info {
     border: 1px solid #7f8c8d;
     border-radius: 8px;
     padding: 15px;
@@ -233,6 +226,19 @@ a:active {
 .jellemzok,
 .fajta {
     background-color: #f5e6d3;
+    border: 1px solid #7f8c8d;
+    border-radius: 8px;
+    padding: 15px;
+    height: 100%;
+}
+
+
+.info {
+    border: 1px solid #7f8c8d;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fdfefe;
 }
 
 #jellemzo,
