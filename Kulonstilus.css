@@ -200,3 +200,20 @@ a:active {
 
     border-bottom-style: solid;
 }
+.kiemelt {
+
+    background-color: lightblue;
+}
+#jellemzo {
+
+    background-color: purple;
+    color: white;
+    padding: 8px;
+}
+
+#fajta {
+
+    background-color: green;
+    color: white;
+    padding: 8px;
+}
