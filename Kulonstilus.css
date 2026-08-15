@@ -217,3 +217,42 @@ a:active {
     color: white;
     padding: 8px;
 }
+
+.menu,
+.tartalom,
+.jellemzok,
+.fajta,
+.info {
+    border: 1px solid #7f8c8d;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fdfefe;
+}
+
+.jellemzok,
+.fajta {
+    background-color: #f5e6d3;
+}
+
+#jellemzo,
+#fajta {
+    border: none;
+    margin-top: 0;
+}
+
+#jellemzo {
+    background-color: purple;
+    color: white;
+    padding: 8px 12px;
+}
+
+#fajta {
+    background-color: green;
+    color: white;
+    padding: 8px 12px;
+}
+
+.fajta-nev {
+    font-weight: bold;
+}
