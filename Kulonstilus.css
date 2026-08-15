@@ -262,3 +262,18 @@ a:active {
 .fajta-nev {
     font-weight: bold;
 }
+
+@media screen and (max-width: 700px) {
+    body, p, li {
+        width: 100%;
+        font-size: calc(12px + 2vw);
+    }
+
+    .tartalom {
+        grid-template-columns: 1fr;
+    }
+
+    .menu {
+        grid-auto-flow: row;
+    }
+}
